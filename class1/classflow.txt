@@ -1,0 +1,8 @@
+# What is a programming language?
+# Why do we use python?
+# What is a python program?
+# How to execute a python program?
+# Hellow world, with different type of comments (explain why we need commments)
+# print, different type of string printing 
+# Types of variables and examples
+# Mathematical operation in python and a simple calculator
