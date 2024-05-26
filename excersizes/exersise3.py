@@ -1,15 +1,19 @@
-'''def create_array(list_dimension,value_per_list_item,x_amount_of_value_per_list):
-    a, b, c = list_dimension, value_per_list_item, x_amount_of_value_per_list
-    list1,list2,list3=[],[],[]
-    if a == 1:
-        for i in range(c):
-            list1.append(b)
-        print(list1)
-    elif a == 2:
-        for i in range(5)
-    if a == 3:
+# create a function called create_array() creating 1~3 dimension lists and fetch, obj amount and obj value and print it
+# function defining
+def create_array(dimension,value,value_num):
+    list1d,list2d,list3d=[],[],[]
+    if dimension == '1':
+        for i in range(value_num):
+            list1d.append(value)
+    if dimension == '2':
+        for i in range(value_num):
+                list1d.append(value)
+        for i in range(value_num):
+            for i in range(value_num):
+                list1d.append(value)
+            list2d.append(list1d)
+    if dimension == '3':
         pass
     else:
-        print('Your awnser is beyond the depths of human wisdom : ')
         exit(0)
-create_array(int(input('what is the dimension of the list (choose 1,2 or 3) : ')),input('What value do you want in every list obj : '),int(input('How many value do you want in a list : ')))'''
+create_array(input('State list dimension 1~3 : '),input('What is value per object : '),input('How many values in a string : '))
