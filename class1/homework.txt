@@ -1,0 +1,1 @@
+take name, age and height of a person and print it whithout the f string
