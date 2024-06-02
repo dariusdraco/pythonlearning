@@ -1,0 +1,6 @@
+- Last class revision : program a temprature conversion which converts 
+- This class we go over
+    * string multiplication
+    * strng to int
+    * f string
+    * boolean
