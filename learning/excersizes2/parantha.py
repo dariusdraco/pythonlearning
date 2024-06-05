@@ -20,6 +20,7 @@ class Parantha():
         Parantha.paranthas-=1
     def print_paranthas():
         Parantha.paranthas
+        
 def main():
     parantha_obj=Parantha(input('Color of parantha : ', input('Filling of parantha : '), input('Parantha temprature')))
     print('')
