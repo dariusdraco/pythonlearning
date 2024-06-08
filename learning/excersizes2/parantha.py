@@ -3,7 +3,6 @@ import pprint
 paranthas,paranthas_name_list,user_input={},[],''
 # defining class and functions
 class ParanthaClass():
-
     paranthaCount=0
     def __init__(self,color,filling,temprature) -> None:
         self.color = color
@@ -52,7 +51,8 @@ def main():
                 pprint.pprint(paranthas_name_list)
                 user_input=input(' : ')
                 for i in len(paranthas_name_list):
-                    if 
+                    if user_input == paranthas_name_list[i]:
+                         paranthas_name_list[i].paranthacount   
         else:
             print('')
             print('')
