@@ -92,6 +92,6 @@ def user_input_function(user_input_var):
 if __name__ == '__main__':
     manual()
     while True:
-        user_input_function(input('''
+                user_input_function(input('''
                                   
     :   '''))
