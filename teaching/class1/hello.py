@@ -1,2 +1,2 @@
 ### Simple program for Hello World
-print('')
+print('I am a simple hello world program')
